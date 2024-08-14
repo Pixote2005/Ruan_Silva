@@ -37,7 +37,6 @@ Autor: Ruan Conceição da Silva.
 # 2. Diagrama banco de dados
 
 ```mermaid
-```mermaid
 erDiagram
     CLIENTE {
         int id
@@ -92,8 +91,6 @@ erDiagram
     ATENDENTE ||--o{ AGENDA : "gerencia"
     ANIMAL ||--o{ AGENDA : "agenda"
     CLIENTE ||--o{ AGENDA : "solicita"
-
-
 
 
 
