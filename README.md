@@ -1,9 +1,9 @@
 # Ruan_Silva
-Aula de engenharia de software      
+Aula de engenharia de software.  
 
-Sistema para cliente veterinaria... 
+Sistema para Cliente Veterinaria.
 
-Autor: Ruan Conceição da Silva      
+Autor: Ruan Conceição da Silva.   
 
 
 # 1.Descrição do Sistema
@@ -35,7 +35,70 @@ Autor: Ruan Conceição da Silva
 
 
 # 2. Diagrama banco de dados
-Colocar aqui o banco de dados...
+
+```mermaid
+```mermaid
+erDiagram
+    CLIENTE {
+        int id
+        string nome
+        string endereco
+        string telefone
+        string email
+    }
+
+    ANIMAL {
+        int id
+        string nome
+        string especie
+        string raca
+        string idade
+        string condicoes
+        string tipo_racao
+        string habitos
+    }
+
+    VETERINARIO {
+        int id
+        string nome
+        string especialidade
+        string telefone
+    }
+
+    ATENDENTE {
+        int id
+        string nome
+        string telefone
+    }
+
+    AGENDA {
+        int id
+        date data
+        time hora
+    }
+
+    PRONTUARIO {
+        int id
+        int animal_id
+        int veterinario_id
+        date data
+        text observacoes
+        text receita
+    }
+
+    CLIENTE ||--o{ ANIMAL : "possui"
+    ANIMAL ||--o{ PRONTUARIO : "tem"
+    VETERINARIO ||--o{ PRONTUARIO : "escreve"
+    ATENDENTE ||--o{ AGENDA : "gerencia"
+    ANIMAL ||--o{ AGENDA : "agenda"
+    CLIENTE ||--o{ AGENDA : "solicita"
+
+
+
+
+
+
+```
 
 !{imagem} (link da imagem)
 
