@@ -101,7 +101,7 @@ erDiagram
 
 # 3. Diagrama de casos de uso
 Colocar aqui o diagrama casos de uso
-![]()
+![https://github.com/Pixote2005/Ruan_Silva/blob/main/Diagrama%20sem%20nome.drawio](https://github.com/Pixote2005/Ruan_Silva/blob/main/Diagrama%20sem%20nome.drawio
 
 # 4. principais telas do sistema
 
