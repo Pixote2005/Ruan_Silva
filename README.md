@@ -112,7 +112,7 @@ erDiagram
 
 
 
-# 5. Arquiterua do Sistema
+# 5. Arquitetura do Sistema
 
 ```mermaid
 graph TD;
