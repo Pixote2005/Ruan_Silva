@@ -107,6 +107,10 @@ erDiagram
 
 ![https://github.com/Pixote2005/Ruan_Silva/blob/main/Captura%20de%20tela%202024-08-15%20221009.png](https://github.com/Pixote2005/Ruan_Silva/blob/main/Captura%20de%20tela%202024-08-15%20221009.png)
 
+![https://github.com/Pixote2005/Ruan_Silva/blob/main/Captura%20de%20tela%202024-08-15%20221807.png](https://github.com/Pixote2005/Ruan_Silva/blob/main/Captura%20de%20tela%202024-08-15%20221807.png)
+
+
+
 
 # 5. Arquiterua do Sistema
 
