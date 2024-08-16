@@ -110,4 +110,14 @@ erDiagram
 
 # 5. Arquiterua do Sistema
 
-![]()
+```mermaid
+graph TD;
+    ClienteWeb(Client Web)
+    Servidor(Servidor)
+    AplicacaoPHP(Aplicação PHP)
+    ServidorBD(Servidor de Banco de Dados)
+
+    ClienteWeb -->|HTTP| Servidor
+    Servidor -->|Executa| AplicacaoPHP
+    AplicacaoPHP -->|Consulta/Atualiza| ServidorBD
+```
