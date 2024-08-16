@@ -121,3 +121,4 @@ graph TD;
     Servidor -->|Executa| AplicacaoPHP
     AplicacaoPHP -->|Consulta/Atualiza| ServidorBD
 ```
+
